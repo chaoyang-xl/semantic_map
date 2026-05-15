@@ -1,0 +1,35 @@
+{
+  "timestamp": 100.0,
+  "camera_info_k": [100.0, 0.0, 2.0, 0.0, 100.0, 2.0, 0.0, 0.0, 1.0],
+  "camera_to_map": {
+    "translation": [1.0, 2.0, 0.0],
+    "rotation_xyzw": [0.0, 0.0, 0.0, 1.0],
+    "source_frame": "front_camera_link",
+    "target_frame": "map"
+  },
+  "depth_image_m": [
+    [2.0, 2.0, 2.0, 2.0, 2.0],
+    [2.0, 2.1, 2.1, 2.1, 2.0],
+    [2.0, 2.1, 2.2, 2.1, 2.0],
+    [2.0, 2.1, 2.1, 2.1, 2.0],
+    [2.0, 2.0, 2.0, 2.0, 2.0]
+  ],
+  "detections": [
+    {
+      "label": "toilet",
+      "confidence": 0.88,
+      "center_u": 2.0,
+      "center_v": 2.0,
+      "width": 2.0,
+      "height": 2.0
+    },
+    {
+      "label": "couch",
+      "confidence": 0.81,
+      "center_u": 3.0,
+      "center_v": 2.0,
+      "width": 2.0,
+      "height": 2.0
+    }
+  ]
+}
