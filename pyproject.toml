@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic-map"
+version = "0.1.0"
+description = "RGB-D detection projection and fusion utilities for 2D semantic maps"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "semantic_map maintainers"}]
+
+[project.scripts]
+semantic-map-json-demo = "semantic_map.json_demo:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
